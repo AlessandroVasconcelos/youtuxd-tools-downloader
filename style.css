@@ -19,11 +19,20 @@
 
 /* Título Principal */
 h1 {
-    color: #282828 !important;
-    font-weight: 900;
-    font-size: 4rem !important; /* Aumentado de 3.5 para 4.0 */
-    text-align: center;
-    letter-spacing: -1px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: center !important;
+    width: 100%;
+}
+
+/* Subtítulo / Legenda */
+.stCaption {
+    margin-top: 30px !important; /* Valor negativo puxa para cima */
+    display: block;
+    text-align: center !important;
+    width: 100%;
+    color: #808495 !important; /* Um cinza elegante */
+    font-size: 1.1rem !important;
 }
 
 /* Subtítulos e Labels (Textos acima das caixas) */
