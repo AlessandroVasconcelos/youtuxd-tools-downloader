@@ -32,7 +32,7 @@ h1 {
     text-align: center !important;
     width: 100%;
     color: #808495 !important; /* Um cinza elegante */
-    font-size: 1.1rem !important;
+    font-size: 2.1rem !important;
 }
 
 /* Subtítulos e Labels (Textos acima das caixas) */
@@ -46,8 +46,8 @@ h1 {
 .stCaption {
     color: #606060 !important;
     font-weight: 500;
-    font-size: 1.4rem !important; /* Aumentado para mais destaque */
-    margin-bottom: 2.5rem !important;
+    font-size: 2.4rem !important; /* Aumentado para mais destaque */
+    margin-bottom: 1.0rem !important;
     text-align: center;
 }
 
@@ -57,8 +57,8 @@ h1 {
     border: 1px solid #CCCCCC !important;
     border-radius: 8px !important;
     color: #0F0F0F !important;
-    padding: 16px !important; /* Mais espaço interno */
-    font-size: 1.3rem !important; /* Texto de digitação bem maior */
+    padding: 14px !important; /* Mais espaço interno */
+    font-size: 1.2rem !important; /* Texto de digitação bem maior */
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
 }
 
@@ -125,20 +125,23 @@ h1 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Espaço para Anúncios (Discreto) */
+
+/* Espaço para Anúncios (Discreto)*/
+/*
 .ad-slot {
     background: #F1F1F1;
     border: 1px dashed #AAAAAA;
     color: #666666 !important;
-    padding: 15px; /* Mais espaço para o anúncio não colar na borda */
+    padding: 15px; 
     text-align: center;
     border-radius: 8px;
-    font-size: 14px !important; /* Fonte do aviso de publicidade um pouco maior */
+    font-size: 14px !important; 
     margin: 20px 0;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+*/
 
 /* Rodapé Fixo na base da tela */
 .custom-footer {
