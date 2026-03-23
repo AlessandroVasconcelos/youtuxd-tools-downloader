@@ -1,0 +1,153 @@
+/* style.css - Tema YouTube (Claro e Vermelho) - Fontes Extra Grandes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* --- REMOVER A BARRA SUPERIOR DO STREAMLIT --- */
+[data-testid="stHeader"] {
+    display: none !important;
+}
+
+/* Espaçamento superior para compensar a barra invisível */
+.block-container {
+    padding-top: 2rem !important;
+}
+
+.stApp {
+    background-color: #F9F9F9;
+    font-family: 'Roboto', sans-serif;
+    color: #0F0F0F;
+}
+
+/* Título Principal */
+h1 {
+    color: #282828 !important;
+    font-weight: 900;
+    font-size: 4rem !important; /* Aumentado de 3.5 para 4.0 */
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+/* Subtítulos e Labels (Textos acima das caixas) */
+.stMarkdown p, label {
+    color: #606060 !important;
+    font-weight: 500;
+    font-size: 1.35rem !important; /* Aumentado consideravelmente */
+}
+
+/* Subtítulo central abaixo do logo */
+.stCaption {
+    color: #606060 !important;
+    font-weight: 500;
+    font-size: 1.4rem !important; /* Aumentado para mais destaque */
+    margin-bottom: 2.5rem !important;
+    text-align: center;
+}
+
+/* Inputs e Selectboxes Estilizados */
+.stTextInput input, .stSelectbox div[data-baseweb="select"] {
+    background-color: #FFFFFF !important;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 8px !important;
+    color: #0F0F0F !important;
+    padding: 16px !important; /* Mais espaço interno */
+    font-size: 1.3rem !important; /* Texto de digitação bem maior */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+}
+
+/* Texto selecionado dentro do dropdown */
+[data-baseweb="select"] span {
+    font-size: 1.3rem !important; /* Opções maiores */
+}
+
+/* Efeito de Foco estilo Google (Azul sutil na borda) */
+.stTextInput input:focus, .stSelectbox div[data-baseweb="select"]:focus-within {
+    border-color: #065FD4 !important; 
+    box-shadow: 0 0 0 1px #065FD4 !important;
+}
+
+/* Card de Resultado (Branco, limpo e com sombra suave) */
+.video-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+
+/* Textos dentro do Card do Vídeo */
+.video-info-title {
+    color: #0F0F0F !important;
+    font-size: 1.7rem !important; /* Título do vídeo bem maior */
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.video-info-uploader {
+    color: #606060 !important;
+    font-size: 1.3rem !important; /* Nome do canal maior */
+    margin-bottom: 10px;
+}
+
+/* Botões Estilo YouTube (Vermelho) */
+.stButton button, .stDownloadButton button {
+    background: #FF0000 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    font-size: 1.4rem !important; /* Texto do botão gigante e clicável */
+    height: 4.2rem !important; /* Botão mais alto para acomodar a fonte */
+    transition: 0.2s all ease !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Efeito Hover do Botão (Fica um vermelho mais escuro) */
+.stButton button:hover, .stDownloadButton button:hover {
+    background: #CC0000 !important; 
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2) !important;
+    transform: translateY(-2px);
+}
+
+/* Thumbnail do Vídeo */
+.thumbnail-img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Espaço para Anúncios (Discreto) */
+.ad-slot {
+    background: #F1F1F1;
+    border: 1px dashed #AAAAAA;
+    color: #666666 !important;
+    padding: 15px; /* Mais espaço para o anúncio não colar na borda */
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px !important; /* Fonte do aviso de publicidade um pouco maior */
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Rodapé Fixo na base da tela */
+.custom-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F9F9F9; /* Mesma cor do fundo da página */
+    text-align: center;
+    color: #909090;
+    font-size: 1.1rem !important;
+    padding: 15px 0;
+    border-top: 1px solid #E5E5E5;
+    z-index: 999; /* Garante que ele fique por cima dos outros elementos */
+}
+
+/* Espaçamento superior e inferior do container principal */
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 100px !important; /* Adicione esta linha para o rodapé não cobrir o conteúdo */
+}
