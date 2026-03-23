@@ -117,7 +117,7 @@ if 'fazer_scroll' not in st.session_state: st.session_state.fazer_scroll = False
 if 'atirar_confete' not in st.session_state: st.session_state.atirar_confete = False # Nova memória para o confete
 
 # Slot de Anúncio Topo
-st.markdown('<div class="ad-slot">PUBLICIDADE</div>', unsafe_allow_html=True)
+#st.markdown('<div class="ad-slot">PUBLICIDADE</div>', unsafe_allow_html=True)
 
 # Cabeçalho Principal
 st.markdown("<h1>🎥 YouTuXD Downloader</h1>", unsafe_allow_html=True)
@@ -224,7 +224,7 @@ if st.session_state.info_video:
         st.session_state.fazer_scroll = False
 
 # Slot de Anúncio Rodapé
-st.markdown('<div class="ad-slot">PUBLICIDADE</div>', unsafe_allow_html=True)
+#st.markdown('<div class="ad-slot">PUBLICIDADE</div>', unsafe_allow_html=True)
 
 # Rodapé Customizado
-st.markdown("<div class='custom-footer'>YouTuXD Downloader © 2026 - Alessandro Vasconcelos</div>", unsafe_allow_html=True)
+st.markdown("<div class='custom-footer'>Desenvolvido por Alessandro © 2026</div>", unsafe_allow_html=True)
