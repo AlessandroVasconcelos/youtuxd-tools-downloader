@@ -69,10 +69,10 @@ local_css("style.css")
 def obter_info_rapido(url):
     ydl_opts = {
         'quiet': True,
-        'skip_download': True,
-        'force_generic_extractor': False,
-        'ignoreerrors': True,
-        'extract_flat': 'in_playlist' 
+        'no_warnings': True,
+        'source_address': '0.0.0.0', # Força usar IPv4 (ajuda em alguns servidores)
+        'nocheckcertificate': True,
+        # ... outras opções ...
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         return ydl.extract_info(url, download=False)
