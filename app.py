@@ -57,7 +57,7 @@ def extrair_capa(info_dict):
 
 # Configuração da página
 st.set_page_config(
-    page_title="SkyDown Pro - YT Video & Playlist Loader", 
+    page_title="YouTuXD Downloader", 
     page_icon="🎥", 
     layout="centered"
 )
@@ -182,7 +182,7 @@ if st.session_state.info_video:
                     info_full, pasta = processar_download(url, tipo, qualidade)
                     
                     if 'entries' in info_full:
-                        final_path = "SkyDown_Playlist"
+                        final_path = "YouTuXD_Playlist"
                         shutil.make_archive(final_path, 'zip', pasta)
                         final_file = final_path + ".zip"
                     else:
