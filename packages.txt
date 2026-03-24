@@ -1,4 +1,2 @@
 ffmpeg
 nodejs
-npm
-deno
