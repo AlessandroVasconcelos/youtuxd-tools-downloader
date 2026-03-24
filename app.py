@@ -91,15 +91,13 @@ def processar_download(url, formato, qualidade):
     }
 
     if "MP3" in formato:
-        ydl_opts = {
-            'cookiefile': 'cookies.txt',
-            'impersonate': 'chrome', # ISSO É VITAL EM 2026
-            'http_chunk_size': 1048576,
-            'nocheckcertificate': True,
-            'quiet': True,
-            'no_warnings': True,
-            'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
-        }],
+        ydl_opts.update({
+            'format': 'bestaudio/best',
+            'postprocessors': [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'mp3',
+                'preferredquality': '320' if "Alta" in qualidade else '192',
+            }],
         })
     else:
         res = "1080" if "1080p" in qualidade else "720" if "720p" in qualidade else "480"
@@ -152,7 +150,7 @@ with st.container():
                 except Exception as e:
                     st.error(f"Erro ao analisar: {e}")
         else:
-            st.warning("Por favor, insira uma URL válida.")
+            st.warning("Por favor, insira uma URL válida!")
 
 st.markdown("---")
 
