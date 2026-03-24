@@ -64,9 +64,10 @@ A aplicação será aberta automaticamente no navegador:
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-<a href="https://www.python.org/" style="text-decoration:none;"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"></a> 
-<a href="https://streamlit.io/" style="text-decoration:none;"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"></a>
-<a href="https://pandas.pydata.org/" style="text-decoration:none;"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"></a>
-<a href="https://openpyxl.readthedocs.io/" style="text-decoration:none;"><img src="https://img.shields.io/badge/OpenPyXL-1F6FEB?style=for-the-badge&logo=microsoft-excel&logoColor=white"></a>
-<a href="https://xlrd.readthedocs.io/" style="text-decoration:none;"><img src="https://img.shields.io/badge/xlrd-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"></a>
+<div align="left">
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+<img src="https://img.shields.io/badge/yt--dlp-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+<img src="https://img.shields.io/badge/FFmpeg-0078D4?style=for-the-badge&logo=ffmpeg&logoColor=white">
+</div>
 
