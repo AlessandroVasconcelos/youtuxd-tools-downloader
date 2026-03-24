@@ -8,15 +8,15 @@ Ferramenta desenvolvida para facilitar o download, conversão e organização de
 
 ### 📋 Funcionalidades Principais
 
-🚀 Extração Inteligente e Rápida
+📥 Download Multi-formato & Qualidade
 - **Vídeo (MP4):** Opções de 1080p (Full HD), 720p (HD) e 480p (SD).
 - **Música (MP3):** Conversão direta para 320kbps (Alta) ou 192kbps (Normal).
 - Sistema de análise instantânea antes de iniciar o download.
 
-📥 Download Multi-formato & Qualidade
-- Geração de arquivos **VCF (vCard)** para importação em contatos (celular/Google Contacts)
-- Conversão para **Excel (.xlsx)** e **CSV**
-- Empacotamento automático de playlists em arquivos .ZIP para facilitar o download.
+📁 Extração Inteligente e Rápida
+- Suporte a links de vídeos únicos e Playlists completas.
+- Extração automática de metadados: Título, Canal e Thumbnails em alta resolução.
+- Sistema de análise instantânea antes de iniciar o download.
 
 ## 🚀 Como Rodar o Projeto Localmente
 
