@@ -163,3 +163,25 @@ h1 {
     padding-top: 2rem !important;
     padding-bottom: 100px !important; /* Adicione esta linha para o rodapé não cobrir o conteúdo */
 }
+
+/* --- ESTILIZAÇÃO DO AVISO (st.warning) --- */
+[data-testid="stNotification"], .stAlert {
+    background-color: #eafa06 !important; /* Fundo Preto */
+    color: #FFFFFF !important;            /* Texto Branco */
+    border-radius: 10px !important;
+    border: 1px solid #ffffff !important; /* Borda cinza escura para dar profundidade */
+}
+
+/* Garante que o ícone e o texto dentro do aviso fiquem brancos */
+[data-testid="stNotification"] p, 
+[data-testid="stNotification"] svg,
+.stAlert p,
+.stAlert svg {
+    color: #000000 !important;
+    fill: #000000 !important; /* Cor do ícone de exclamação */
+}
+
+/* Opcional: Deixa a barrinha lateral esquerda vermelha (estilo YouTube) */
+[data-testid="stNotification"] > div, .stAlert > div {
+    border-left-color: #FF0000 !important;
+}
